@@ -10,6 +10,9 @@
 
 button {
   cursor: pointer;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 h1,
@@ -179,6 +182,7 @@ height: 600px;
 flex-shrink: 0;
 margin-left: auto;
 margin-right: auto;
+
 }
 
 .Solutions {
@@ -191,12 +195,10 @@ margin-right: auto;
   width: 496px;
   height: 120px;
   padding-top: 188px;
-  padding-bottom: 48px;
-  margin-left: auto;
-margin-right: auto;
   
-
-}
+  margin-left: auto;
+  margin-right: auto;
+  }
 
 .order {
   /* Button Text */
@@ -226,6 +228,9 @@ margin-right: auto;
   line-height: 1.2; /* 120% */
   letter-spacing: 0.02em;
   color: var(--NAVY-BLUE, #2e2f42);
+  
+  
+
 }
 
 .benefits-text {
@@ -234,6 +239,12 @@ margin-right: auto;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.02em;
   color: var(--SLATE, #434455);
+}
+
+.benefits-form {
+  display: flex;
+gap: 24px;
+
 }
 
 
@@ -253,6 +264,7 @@ margin-right: auto;
   line-height: 1.11; /* 111.111% */
   letter-spacing: 0.02em;
   color: var(--NAVY-BLUE, #2e2f42);
+  padding-bottom: 72px;
 }
 
 .team-group {
@@ -261,6 +273,8 @@ margin-right: auto;
   line-height: 1.2; /* 120% */
   letter-spacing: 0.02em;
   color: var(--NAVY-BLUE, #2e2f42);
+  margin-bottom: 8px;
+  text-align: center;
 }
 
 .section-layers {
@@ -273,11 +287,28 @@ margin-right: auto;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.02em;
   color: var(--SLATE, #434455);
+  text-align: center;
 }
 
 .photo-layer {
   background: var(--WHITE, #fff);
+  padding-bottom: 32px;
+  border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+  
 }
+
+.list-team-group {
+  display: flex;
+  gap: 24px;
+}
+
+.team-photo {
+  margin-bottom: 32px;
+  
+}
+
+
 
 /* ================ OUR TEAM ========================== */
 
