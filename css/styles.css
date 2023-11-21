@@ -59,6 +59,29 @@ overflow: hidden;
 
 /* ==============COMMON STYLES===================== */
 
+
+
+/* ==============HEADER STYLES===================== */
+
+.page-header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+
+
+
+
+.page-navigation {
+  display: flex;
+  align-items: center;
+
+}
+
+
+
+
 body {
   font-family: "Roboto", sans-serif;
   color: #434455;
@@ -78,14 +101,35 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  padding-right: 76px;
 }
 
-.menu-link {
-  font-size: 16px;
 
+
+
+
+/* ============== Navigation+ Mail============= */
+.navigation {
+  display: flex;
+  column-gap: 40px;
+  align-items: center;
+}
+
+.navigation-link {
+  display: flex;
+  column-gap: 40px;
+  align-items: center;
+}
+
+
+.menu-link {
+  display: block;
+  font-size: 16px;
   font-weight: 500;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.02em;
+  padding-top: 24px ;
+  padding-bottom: 24px ;
   color: #2e2f42;
 }
 
@@ -95,7 +139,9 @@ body {
 }
 
 .adress-text {
+  
   font-style: normal;
+
 }
 
 .contacts {
@@ -107,11 +153,15 @@ body {
   font-weight: 400;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.02em;
+  padding-top: 24px ;
+  padding-bottom: 24px ;
 }
 .contacts:hover,
 .contacts:focus {
   color: #404bbf;
 }
+
+/* ============== Navigation+ Mail============= */
 
 .section-layer {
   background: #2e2f42;
