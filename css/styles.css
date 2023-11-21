@@ -56,6 +56,10 @@ overflow: hidden;
   padding-right: 15px;
 }
 
+.section {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
 
 /* ==============COMMON STYLES===================== */
 
@@ -101,7 +105,7 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-  padding-right: 76px;
+  margin-right: 76px;
 }
 
 
@@ -163,8 +167,18 @@ body {
 
 /* ============== Navigation+ Mail============= */
 
+/* ============== MAIN ======================== */
+
+
+
 .section-layer {
   background: #2e2f42;
+  margin-bottom: 60px;
+  width: 1440px;
+height: 600px;
+flex-shrink: 0;
+margin-left: auto;
+margin-right: auto;
 }
 
 .Solutions {
@@ -174,6 +188,14 @@ body {
   line-height: 1.07; /* 107.143% */
   letter-spacing: 0.02em;
   color: #fff;
+  width: 496px;
+  height: 120px;
+  padding-top: 188px;
+  padding-bottom: 48px;
+  margin-left: auto;
+margin-right: auto;
+  
+
 }
 
 .order {
@@ -192,6 +214,12 @@ body {
   background: var(--OCEAN, #404bbf);
 }
 
+
+/* ============== MAIN ======================== */
+
+
+/* ================ BENEFITS ========================== */
+
 .benefits-list {
   font-size: 20px;
   font-weight: 500;
@@ -207,6 +235,15 @@ body {
   letter-spacing: 0.02em;
   color: var(--SLATE, #434455);
 }
+
+
+/* ================ BENEFITS ========================== */
+
+
+
+/* ================ OUR TEAM ========================== */
+
+
 
 .team {
   text-align: center;
@@ -242,13 +279,23 @@ body {
   background: var(--WHITE, #fff);
 }
 
+/* ================ OUR TEAM ========================== */
+
+
+/* ================ OUR PORTFOLIO ===================== */
 .portfolio {
   text-transform: capitalize;
+  text-align: center;
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11; /* 111.111% */
   letter-spacing: 0.02em;
   color: var(--NAVY-BLUE, #2e2f42);
+margin-bottom: 72px;
+margin-left: auto;
+margin-right: auto;
+width: 412px;
+
 }
 
 .possibilities {
@@ -267,7 +314,11 @@ body {
   color: var(--SLATE, #434455);
 }
 
-/* footer */
+
+
+/* ================ OUR PORTFOLIO ===================== */
+
+/* ================ FOOTER ============================ */
 .layers {
   background: var(--NAVY-BLUE, #2e2f42);
 }
@@ -288,3 +339,4 @@ body {
   letter-spacing: 0.02em;
   color: var(--CLOUD, #f4f4fd);
 }
+/* ================ FOOTER ============================ */
