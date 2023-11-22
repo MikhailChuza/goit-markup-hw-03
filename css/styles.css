@@ -283,7 +283,7 @@ padding-bottom: 188px;
   line-height: 1.11; /* 111.111% */
   letter-spacing: 0.02em;
   color: var(--NAVY-BLUE, #2e2f42);
-  padding-bottom: 72px;
+  margin-bottom: 72px;
 }
 
 .team-group {
@@ -311,7 +311,7 @@ padding-bottom: 188px;
 
 .photo-layer {
   background: var(--WHITE, #fff);
-  padding-bottom: 32px;
+  
   border-radius: 0px 0px 4px 4px;
   box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
   
@@ -322,10 +322,11 @@ padding-bottom: 188px;
   gap: 24px;
 }
 
-.team-photo {
-  margin-bottom: 32px;
-  
+.profession-text {
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
+
 
 
 
