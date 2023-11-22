@@ -397,14 +397,14 @@ align-items: flex-start;
 flex-shrink: 0;
 
 background: var(--WHITE, #FFF);
-border: 1px solid #e7e9fc;
-  border-top: none;
+
 
 }
 
 .possibilities-text {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
+  border-top: none;
   }
 
 
