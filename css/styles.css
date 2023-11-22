@@ -10,9 +10,7 @@
 
 button {
   cursor: pointer;
-  display: block;
-  margin-right: auto;
-  margin-left: auto;
+ 
 }
 
 h1,
@@ -186,9 +184,10 @@ flex-shrink: 0;
 margin-left: auto;
 margin-right: auto;
 
+
 }
 
-.Solutions {
+.solutions {
   text-align: center;
   font-size: 56px;
   font-weight: 700;
@@ -212,6 +211,14 @@ margin-right: auto;
   letter-spacing: 0.04em;
   color: var(--WHITE, #fff);
   background-color: #4d5ae5;
+  padding: 16px 32px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  border-radius: 4px;
 }
 
 .push:hover,
