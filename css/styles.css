@@ -74,7 +74,7 @@ overflow: hidden;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  
+  border-bottom: 1px solid var(--CORNFLOWER, #E7E9FC);
 }
 
 
