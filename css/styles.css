@@ -118,13 +118,13 @@ body {
 /* ============== Navigation+ Mail============= */
 .navigation {
   display: flex;
-  column-gap: 40px;
+  gap: 40px;
   align-items: center;
 }
 
 .navigation-link {
   display: flex;
-  column-gap: 40px;
+  gap: 40px;
   align-items: center;
 }
 
