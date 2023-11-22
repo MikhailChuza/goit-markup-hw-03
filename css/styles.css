@@ -383,6 +383,7 @@ margin-bottom: 8px
   row-gap: 48px;
   flex-wrap: wrap;
   
+  
 }
 
 .possibilities-layer {
@@ -394,16 +395,16 @@ flex-direction: column;
 align-items: flex-start;
 
 flex-shrink: 0;
-border: 1px solid var(--CORNFLOWER, #E7E9FC);
+
 background: var(--WHITE, #FFF);
-border-top: none;
+border: 1px solid #e7e9fc;
+  border-top: none;
+
 }
 
 .possibilities-text {
   padding: 32px 16px;
-  border: 1px solid #e7e9fc;
-  border-top: none;
-}
+  }
 
 
 
